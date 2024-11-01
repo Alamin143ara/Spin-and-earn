@@ -80,4 +80,4 @@ function showAd() {
     setTimeout(() => {
         document.getElementById("4877").innerHTML = "<p>Thank you for watching the ad!</p>";
     }, 3000); // Ad display duration
-} 
+}

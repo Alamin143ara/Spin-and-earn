@@ -73,15 +73,13 @@ function determineReward() {
 
 // Function to show AdsGram ad
 function showAd() {
-    document.getElementById("4877").innerHTML = "<p>Loading ad...</p>";
+    document.getElementById("ad-4877").innerHTML = "<p>Loading ad...</p>";
     // Add AdsGram ad code here
     // Example: AdsGram.showAd({ elementId: 'ad-container' });
 
     setTimeout(() => {
-        document.getElementById("4877").innerHTML = "<p>Thank you for watching the ad!</p>";
+        document.getElementById("ad-4877").innerHTML = "<p>Thank you for watching the ad!</p>";
     }, 3000); // Ad display duration
 }
 
-   const AdController = window.Adsgram.init({ blockId: "4877" });
-}
 

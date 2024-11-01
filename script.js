@@ -1,7 +1,7 @@
 const canvas = document.getElementById("wheelCanvas");
 const ctx = canvas.getContext("2d");
 
-let isSpinning = true;
+let isSpinning = false;
 let totalPoints = 0;
 const segments = ["10 Points", "20 Points", "30 Points", "50 Points", "100 Points"];
 const colors = ["#FFC107", "#FF5722", "#4CAF50", "#2196F3", "#9C27B0"];
@@ -38,7 +38,7 @@ function spinWheel() {
     isSpinning = true;
 
     let spinAngle = Math.random() * 2000 + 2000;
-    let spinTime = 10;
+    let spinTime = 0;
     const spinTimeTotal = 4000;
 
     function rotate() {
@@ -69,7 +69,6 @@ function determineReward() {
 
     // Show ad after each spin
     showAd();
-       document.getElementById("4877").innerHTML = "<p>Loading ad...</p>
 }
 
 // Function to show AdsGram ad

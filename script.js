@@ -81,3 +81,5 @@ function showAd() {
         document.getElementById("4877").innerHTML = "<p>Thank you for watching the ad!</p>";
     }, 3000); // Ad display duration
 }
+
+const AdController = window.Adsgram.init({ blockId: "4877" });

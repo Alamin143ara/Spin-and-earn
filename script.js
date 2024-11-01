@@ -82,4 +82,9 @@ function showAd() {
     }, 3000); // Ad display duration
 }
 
-const AdController = window.Adsgram.init({ blockId: "4877" });
+   const AdController = window.Adsgram.init({ blockId: "4877" });
+}
+  document.getElementById("adsButton").addEventListener("click", function() {
+    // এখানে বিজ্ঞাপনের জন্য কাজগুলো করবেন, যেমন বিজ্ঞাপন প্রদর্শন বা রিডাইরেক্ট করা।
+    alert("Ad is being displayed!");
+});

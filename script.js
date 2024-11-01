@@ -80,11 +80,4 @@ function showAd() {
     setTimeout(() => {
         document.getElementById("ad-container").innerHTML = "<p>Thank you for watching the ad!</p>";
     }, 3000); // Ad display duration
-}
-
-      // AdsGram ad code
-AdsGram.showAd({ elementId: '4875' });
-
-}
-
-  // const AdController = window.Adsgram.init({ blockId: "4875" });
+} 
